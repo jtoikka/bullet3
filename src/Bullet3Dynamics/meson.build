@@ -11,5 +11,6 @@ Bullet3Dynamics = library(
   'Bullet3Dynamics',
   sources,
   include_directories: include_dirs,
-  link_with: Bullet3Collision
+  link_with: Bullet3Collision,
+  cpp_args: '-O3'
 )

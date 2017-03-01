@@ -7,5 +7,6 @@ sources = [
 Bullet3Common = library(
   'Bullet3Common',
   sources,
-  include_directories: include_dirs
+  include_directories: include_dirs,
+  cpp_args: '-O3'
 )

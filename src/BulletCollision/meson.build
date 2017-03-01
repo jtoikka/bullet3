@@ -99,5 +99,6 @@ BulletCollision = library(
   'BulletCollision',
   sources,
   include_directories: include_dirs,
-  link_with: [LinearMath]
+  link_with: [LinearMath],
+  cpp_args: '-O3'
 )

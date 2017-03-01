@@ -10,5 +10,6 @@ Bullet3Collision = library(
   'Bullet3Collision',
   sources,
   include_directories: include_dirs,
-  link_with: [Bullet3Common, Bullet3Geometry]
+  link_with: [Bullet3Common, Bullet3Geometry],
+  cpp_args: '-O3'
 )

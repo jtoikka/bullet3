@@ -10,5 +10,6 @@ Bullet2FileLoader = library(
   'Bullet2FileLoader',
   sources,
   include_directories: include_dirs,
-  link_with: [Bullet3Common]
+  link_with: [Bullet3Common],
+  cpp_args: '-O3'
 )

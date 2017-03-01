@@ -13,5 +13,6 @@ sources = [
 LinearMath = library(
   'LinearMath',
   sources,
-  include_directories: include_dirs
+  include_directories: include_dirs,
+  cpp_args: '-O3'
 )

@@ -14,5 +14,6 @@ BulletSoftBody = library(
   'BulletSoftBody',
   sources,
   include_directories: include_dirs,
-  link_with: [BulletDynamics]
+  link_with: [BulletDynamics],
+  cpp_args: '-O3'
 )

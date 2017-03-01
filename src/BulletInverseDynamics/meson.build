@@ -9,5 +9,6 @@ BulletInverseDynamics = library(
   'BulletInverseDynamics',
   sources,
   include_directories: include_dirs,
-  link_with: [Bullet3Common, LinearMath]
+  link_with: [Bullet3Common, LinearMath],
+  cpp_args: '-O3'
 )

@@ -41,5 +41,6 @@ BulletDynamics = library(
   'BulletDynamics',
   sources,
   include_directories: include_dirs,
-  link_with: [BulletCollision, LinearMath]
+  link_with: [BulletCollision, LinearMath],
+  cpp_args: '-O3'
 )

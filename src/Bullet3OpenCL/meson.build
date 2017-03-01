@@ -36,5 +36,5 @@ Bullet3OpenCL = library(
   sources,
   include_directories: include_dirs,
   link_with: [Bullet3Dynamics, LinearMath],
-  cpp_args: '-DB3_USE_CLEW'
+  cpp_args: ['-DB3_USE_CLEW', '-O3']
 )
